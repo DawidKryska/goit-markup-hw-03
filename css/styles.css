@@ -1,0 +1,181 @@
+/*Header*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--primary-background-color);
+    color: var(--first-font-color);
+}
+
+:root {
+    --first-font-color: #212121;
+    --second-font-color: #2196f3;
+    --third-font-color: #000000;
+    --fourth-font-color: #757575;
+    --fifth-font-color: #ffffff;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #2f303a;
+    --tertiary-background-color: #f5f4fa;
+    --fourthary-background-color: #2196f3;
+}
+
+/*Main Page*/
+
+.header-primary {
+    background: var(--secondary-background-color);
+}
+.header-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--fifth-font-color);
+}
+
+.button-header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--fifth-font-color);
+    background: var(--fourthary-background-color);
+    border-radius: 4px;
+}
+
+.list-primary h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--first-font-color);
+}
+
+.list-primary {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--fourth-font-color);
+}
+
+.list-secondary .list-secondary-title p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--first-font-color);
+}
+
+.our-team {
+    background: var(--tertiary-background-color);
+}
+
+.our-team-title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--first-font-color);
+}
+
+/*Portfolio*/
+
+.logo-header-first-part {
+    color: var(--second-font-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-header-second-part {
+    color: var(--third-font-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.contact-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--fourth-font-color);
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+    color: var(--second-font-color);
+}
+
+.menu-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.menu-nav a:hover,
+.menu-nav a:focus,
+.menu-nav a:active {
+    color: var(--second-font-color);
+}
+
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.615;
+    color: var(---first-font-color);
+}
+
+.list-button {
+    border-radius: 4px;
+    background: var(--tertiary-background-color);
+}
+.buttons .list-button:hover,
+.buttons .list-button:focus,
+.buttons .list-button:active {
+    color: var(--primary-background-color);
+    background: var(--second-font-color);
+}
+
+.pointer button {
+    cursor: pointer;
+}
+
+.contact-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--fourth-font-color);
+}
+
+.list-item-description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--first-font-color);
+}
+
+.list-item figcaption {
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--fourth-font-color);
+}
+
+.footer {
+    background: var(--secondary-background-color);
+}
+
+.contact-links-footer a {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-background-color);
+    opacity: 0.6;
+}
+
+.contact-links-footer a:hover,
+.contact-links-footer a:focus {
+    color: var(--second-font-color);
+}
+
+.footer .logo-header-second-part {
+    color: var(--primary-background-color);
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-background-color);
+}
