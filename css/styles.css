@@ -78,6 +78,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-header-second-part {
@@ -93,6 +94,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: var(--fourth-font-color);
+    text-decoration: none;
 }
 
 .contact-links a:hover,
